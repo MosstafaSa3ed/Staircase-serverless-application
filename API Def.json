@@ -1,0 +1,141 @@
+openapi: 3.0.1
+info:
+  title: defaultTitle
+  description: defaultDescription
+  version: '0.1'
+servers:
+  - url: https://v78ebf0uil.execute-api.eu-west-1.amazonaws.com
+paths:
+  /img/{id}:
+    get:
+      description: Auto generated using Swagger Inspector
+      parameters:
+        - name: id
+          in: query
+          schema:
+            type: string
+          example: 0bff33ce-73ee-48aa-9e7d-8e47db9af479
+      responses:
+        '200':
+          description: Auto generated using Swagger Inspector
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  '0':
+                    type: object
+                    properties:
+                      confidence:
+                        type: string
+                      label:
+                        type: string
+                  '1':
+                    type: object
+                    properties:
+                      confidence:
+                        type: string
+                      label:
+                        type: string
+                  '2':
+                    type: object
+                    properties:
+                      confidence:
+                        type: string
+                      label:
+                        type: string
+                  '3':
+                    type: object
+                    properties:
+                      confidence:
+                        type: string
+                      label:
+                        type: string
+                  '4':
+                    type: object
+                    properties:
+                      confidence:
+                        type: string
+                      label:
+                        type: string
+                  '5':
+                    type: object
+                    properties:
+                      confidence:
+                        type: string
+                      label:
+                        type: string
+                  '6':
+                    type: object
+                    properties:
+                      confidence:
+                        type: string
+                      label:
+                        type: string
+                  '7':
+                    type: object
+                    properties:
+                      confidence:
+                        type: string
+                      label:
+                        type: string
+                  '8':
+                    type: object
+                    properties:
+                      confidence:
+                        type: string
+                      label:
+                        type: string
+                  '9':
+                    type: object
+                    properties:
+                      confidence:
+                        type: string
+                      label:
+                        type: string
+                  '10':
+                    type: object
+                    properties:
+                      confidence:
+                        type: string
+                      label:
+                        type: string
+                  '11':
+                    type: object
+                    properties:
+                      confidence:
+                        type: string
+                      label:
+                        type: string
+                  '12':
+                    type: object
+                    properties:
+                      confidence:
+                        type: string
+                      label:
+                        type: string
+                  PK:
+                    type: string
+              examples:
+                '0':
+                  value: >-
+                    {"10": {"label": "Spoke", "confidence":
+                    "93.56278991699219"}, "11": {"label": "Car Wheel",
+                    "confidence": "91.85301971435547"}, "12": {"label":
+                    "Mustang", "confidence": "87.01248168945312"}, "0":
+                    {"label": "Car", "confidence": "99.98123168945312"}, "1":
+                    {"label": "Automobile", "confidence": "99.98123168945312"},
+                    "2": {"label": "Vehicle", "confidence":
+                    "99.98123168945312"}, "3": {"label": "Transportation",
+                    "confidence": "99.98123168945312"}, "4": {"label": "Sports
+                    Car", "confidence": "99.66072082519531"}, "5": {"label":
+                    "Coupe", "confidence": "99.08467864990234"}, "6": {"label":
+                    "Tire", "confidence": "97.43475341796875"}, "7": {"label":
+                    "Wheel", "confidence": "96.18270111083984"}, "8": {"label":
+                    "Machine", "confidence": "96.18270111083984"}, "9":
+                    {"label": "Alloy Wheel", "confidence": "93.56278991699219"},
+                    "PK": "0bff33ce-73ee-48aa-9e7d-8e47db9af479"}
+      servers:
+        - url: https://v78ebf0uil.execute-api.eu-west-1.amazonaws.com
+    servers:
+      - url: https://v78ebf0uil.execute-api.eu-west-1.amazonaws.com
